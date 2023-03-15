@@ -1,0 +1,32 @@
+.pricing-container{
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  font-family: Calibri;
+}
+
+.pricing-title{
+  margin-bottom: 3px;
+}
+
+.pricing-value{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-value-console{
+  display: flex;
+}
+
+.pricing-value-console > span{
+  font-weight: bold;
+  color: aqua;
+  margin-right: 9px;
+}
